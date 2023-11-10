@@ -1,0 +1,10 @@
+.card {
+  --bs-card-border-color: rgba(255,255,255,0.15) !important;
+  color: #adb5bd;
+}
+
+.container.dark, .container-fluid.dark {
+  background: #212529;
+  color: #fff;
+}
+

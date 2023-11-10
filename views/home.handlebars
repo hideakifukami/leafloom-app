@@ -1,0 +1,31 @@
+<div class="bg-dark text-secondary px-4 py-5 text-center" style="height: 100%;">
+    <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Dúvida sobre o que ler?</h1>
+        <p class="fs-5 mb-4">Preencha as informações abaixo que iremos te ajudar!</p>
+    </div>
+    <div class="py-5">
+        <form action="/info" method="POST">            
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="genero" name="genero" placeholder="Qual seu gênero literário preferido?" style="margin: 50px 0px;">
+                <label class="form-label" for="floatingInput" style="width: 600px;">Qual seu gênero literário preferido?</label><!-- Start: Input-text floating-labels -->
+            </div>                
+            <div class="form-floating mb-3">                    
+                <input type="text" class="form-control" id="gosto" name="gosto" placeholder="Quais livros você leu e gostou?" style="margin: 50px 0px;">
+                <label class="form-label" for="floatingInput" style="width: 300px;">Quais livros você leu e gostou?</label>
+            </div>
+            <div class="form-floating mb-3">                    
+                <input type="text" class="form-control" id="autor" name="autor" placeholder="Qual seu autor preferido?" style="margin: 50px 0px;">
+                <label class="form-label" for="floatingInput" style="width: 300px;">Qual seu autor preferido?</label>
+            </div>           
+            <div class="form-floating mb-3">                    
+                <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Livros recentes ou clássicos?" style="margin: 50px 0px;">
+                <label class="form-label" for="floatingInput" style="width: 300px;">Livros recentes ou clássicos?</label><!-- Start: Input-text floating-labels -->
+            </div>
+            <div class="form-floating mb-3">                    
+                <input type="text" class="form-control" id="tema" name="tema" placeholder="Algum tema específico?" style="margin: 50px 0px;">
+                <label class="form-label" for="floatingInput" style="width: 300px;">Algum tema específico?</label>
+            </div>            
+            <button class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" type="submit">Ver recomendações!</button>
+        </form>
+    </div>
+</div>
